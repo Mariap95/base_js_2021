@@ -29,7 +29,3 @@ console.log(typeof carQuantity);
 console.log(typeof user);
 console.log(typeof id);
 console.log(typeof bigIntNumber);
-
-const name = "Maria";
-name = "Alex";
-console.log(name);
