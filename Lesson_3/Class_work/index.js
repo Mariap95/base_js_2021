@@ -59,13 +59,44 @@ console.log(Number(voidString));*/
 // console.log(+stringValue + numberValue);
 // console.log(numberValue + +stringValue);
 
-const firstName = "Maria";
-const lastName = "Pushkova";
+// const firstName = "Maria";
+// const lastName = "Pushkova";
 
-console.log(firstName + " " + lastName);
-console.log(`${firstName} ${lastName}`);
+// console.log(firstName + " " + lastName);
+// console.log(`${firstName} ${lastName}`);
 
-console.log(4 + 5 + "O");
-console.log("2" * "3");
-console.log("4" - 2);
-console.log("4" - "4x");
+//Операция сравнения
+
+// console.log(5 == 5);
+// console.log(5 != 7);
+// console.log(false == 0);
+
+// const firstString = "apple";
+// const secondString = "Apple";
+// console.log(firstString != secondString);
+
+// const a = 0;
+// const b = "0";
+// console.log(a == b);
+// console.log(a === b);
+
+console.log(5 > 4); //true
+console.log("ананас" > "яблоко"); //false
+console.log("2" > "12"); //true, два больше 1, поэтому
+console.log(null == "\n0\n"); // null равен только себе либо undefined
+console.log("" + 1 + 0); //Сначала 1 сольется с пустой строкой и станет строкой
+console.log("" - 1 + 0, typeof ("" - 1 + 0)); //Минус привел пустую строку к 0, далее математический пример с рузультатом числом.
+console.log(true + false); //1
+console.log(true + "" + false); //truefalse
+console.log(true + false + "", typeof (true + false + "")); //1, string
+console.log(6 / "3"); // строка преобразуется в число при операции деления.
+console.log(4 + 5 + "px"); //9px
+console.log("$" + 4 + 5); //$45
+console.log("4" - 2); //2
+console.log("4px" - 2); //NaN
+console.log(7 / 0); //Infinity
+console.log(" -9 " + 5); // -9 5
+console.log("-9" - 5); //-14
+console.log(null + 1); //1
+console.log(undefined + 1); //NaN
+console.log("\t\n" - 2, typeof "\t\n"); //-2, string. Строка с пробелами - пустая строка
