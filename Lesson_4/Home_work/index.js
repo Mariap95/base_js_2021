@@ -248,13 +248,46 @@
 //   }
 // }
 
-let myArray = [10, 20, 30, 50, 235, 3000];
-for (let i = 0; i <= 5; i += 1) {
-  if (
-    String(myArray[i]).startsWith("1") ||
-    String(myArray[i]).startsWith("2") ||
-    String(myArray[i]).startsWith("5")
-  ) {
-    console.log(myArray[i]);
+// let myArray = [10, 20, 30, 50, 235, 3000];
+// for (let i = 0; i <= 5; i += 1) {
+//   if (
+//     String(myArray[i]).startsWith("1") ||
+//     String(myArray[i]).startsWith("2") ||
+//     String(myArray[i]).startsWith("5")
+//   ) {
+//     console.log(myArray[i]);
+//   }
+// }
+
+let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i <= 8; i += 1) {
+  let myString = "-" + myArray[i];
+  if (myArray[i] == myArray.length) {
+    myString += "-";
   }
+  console.log(myString);
+  //   console.log(
+  //     "-" +
+  //       String(myArray[0]) +
+  //       "-" +
+  //       String(myArray[1]) +
+  //       "-" +
+  //       String(myArray[2]) +
+  //       "-" +
+  //       String(myArray[3]) +
+  //       "-" +
+  //       String(myArray[4]) +
+  //       "-" +
+  //       String(myArray[5]) +
+  //       "-" +
+  //       String(myArray[6]) +
+  //       "-" +
+  //       String(myArray[7]) +
+  //       "-" +
+  //       String(myArray[8]) +
+  //       "-" +
+  //       String(myArray[9]) +
+  //       "-"
+  //   );
+  //   break;
 }
