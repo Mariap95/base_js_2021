@@ -224,3 +224,37 @@
 // console.log(result);
 
 // Задачи общие
+// let myArray = [2, 5, 9, 15, 0, 4];
+// for (let i = 0; i <= 5; i += 1) {
+//   if (myArray[i] > 3 && myArray[i] < 10) {
+//     console.log(myArray[i]);
+//   }
+// }
+
+// let myArray = [2, 4, 5, -6, -7];
+// let sum = 0;
+// for (let i = 0; i <= 4; i += 1) {
+//   if (myArray[i] > 0) {
+//     sum = sum + myArray[i];
+//   }
+// }
+// console.log(sum);
+
+// let myArray = [1, 2, 5, 9, 4, 13, 4, 10];
+// for (let i = 0; i <= 7; i += 1) {
+//   if (myArray[i] === 4) {
+//     console.log("Есть!");
+//     break;
+//   }
+// }
+
+let myArray = [10, 20, 30, 50, 235, 3000];
+for (let i = 0; i <= 5; i += 1) {
+  if (
+    String(myArray[i]).startsWith("1") ||
+    String(myArray[i]).startsWith("2") ||
+    String(myArray[i]).startsWith("5")
+  ) {
+    console.log(myArray[i]);
+  }
+}
