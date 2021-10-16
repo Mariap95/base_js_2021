@@ -259,35 +259,72 @@
 //   }
 // }
 
-let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-for (let i = 0; i <= 8; i += 1) {
-  let myString = "-" + myArray[i];
-  if (myArray[i] == myArray.length) {
-    myString += "-";
-  }
-  console.log(myString);
-  //   console.log(
-  //     "-" +
-  //       String(myArray[0]) +
-  //       "-" +
-  //       String(myArray[1]) +
-  //       "-" +
-  //       String(myArray[2]) +
-  //       "-" +
-  //       String(myArray[3]) +
-  //       "-" +
-  //       String(myArray[4]) +
-  //       "-" +
-  //       String(myArray[5]) +
-  //       "-" +
-  //       String(myArray[6]) +
-  //       "-" +
-  //       String(myArray[7]) +
-  //       "-" +
-  //       String(myArray[8]) +
-  //       "-" +
-  //       String(myArray[9]) +
-  //       "-"
-  //   );
-  //   break;
-}
+// let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// for (let i = 0; i < myArray.length; i++) {
+//   console.log(
+//     "-" +
+//       String(myArray[0]) +
+//       "-" +
+//       String(myArray[1]) +
+//       "-" +
+//       String(myArray[2]) +
+//       "-" +
+//       String(myArray[3]) +
+//       "-" +
+//       String(myArray[4]) +
+//       "-" +
+//       String(myArray[5]) +
+//       "-" +
+//       String(myArray[6]) +
+//       "-" +
+//       String(myArray[7]) +
+//       "-" +
+//       String(myArray[8]) +
+//       "-"
+//   );
+//   break;
+// }
+
+// let weekArray = [
+//   "понедельник",
+//   "вторник",
+//   "среда",
+//   "четверг",
+//   "пятница",
+//   "суббота",
+//   "воскресенье",
+// ];
+
+// for (let i = 0; i < weekArray.length; i++) {
+//   if (weekArray[i] == "суббота" || weekArray[i] == "воскресенье") {
+//     console.log(weekArray[i].bold());
+//   } else {
+//     console.log(weekArray[i]);
+//   }
+// }
+// let weekArray = [
+//     "понедельник",
+//     "вторник",
+//     "среда",
+//     "четверг",
+//     "пятница",
+//     "суббота",
+//     "воскресенье",
+//   ];
+// for (let i = 0; i < weekArray.length; i++) {
+//   let day = weekArray[5];
+//   if (weekArray[i] == day) {
+//     console.log(weekArray[i].italics());
+//   } else {
+//     console.log(weekArray[i]);
+//   }
+// }
+// let n = 1000;
+// let finalNumber = 50;
+// let num = 0;
+// while (n > finalNumber) {
+//   n /= 2;
+//   num++;
+// }
+// console.log(n);
+// console.log(num);
