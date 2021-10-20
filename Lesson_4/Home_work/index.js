@@ -236,6 +236,7 @@
 // for (let i = 0; i <= 4; i += 1) {
 //   if (myArray[i] > 0) {
 //     sum = sum + myArray[i];
+// sum += myArray[i];
 //   }
 // }
 // console.log(sum);
@@ -257,6 +258,13 @@
 //   ) {
 //     console.log(myArray[i]);
 //   }
+// if (
+//   myArray[i].toString()[0] === "1" ||
+//   myArray[i].toString()[0] === "2" ||
+//   myArray[i].toString()[0] === "5"
+// ) {
+//   console.log(myArray[i]);
+// }
 // }
 
 // let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -282,6 +290,10 @@
 //       String(myArray[8]) +
 //       "-"
 //   );
+// let result ="-";
+// for (let i =0; i<length; i +=1) {
+//     result += `${myArray[i]-}`
+// }
 //   break;
 // }
 
